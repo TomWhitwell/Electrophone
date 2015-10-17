@@ -10,5 +10,5 @@ Current status:
 October 2015: Rev 1 prototype boards sent to fab  
 
 
-![](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/e01ff312f468f788d26daf6065902c3e.png)  
-![](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/bc744b2e25e5060f5d8d09462e7ba010.png)
+![](https://raw.githubusercontent.com/TomWhitwell/Pickup/master/Collateral/pickuppanel.jpg)  
+![](https://raw.githubusercontent.com/TomWhitwell/Magnetophone/master/Collateral/tapehead-panel.jpg)
