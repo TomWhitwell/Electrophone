@@ -1193,12 +1193,12 @@
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="3.2" layer="46"/>
 </package>
 <package name="SINGLE_COIL_CUTOUT_MILLING">
-<wire x1="35" y1="0" x2="25.78045625" y2="-9" width="0.0254" layer="20" curve="-90"/>
-<wire x1="25.78045625" y1="-9" x2="-25.78045625" y2="-9" width="0.0254" layer="20"/>
-<wire x1="-25.78045625" y1="-9" x2="-35" y2="0" width="0.0254" layer="20" curve="-90"/>
-<wire x1="-35" y1="0" x2="-25.78045625" y2="9" width="0.0254" layer="20" curve="-90"/>
-<wire x1="-25.78045625" y1="9" x2="25.78045625" y2="9" width="0.0254" layer="20"/>
-<wire x1="25.78045625" y1="9" x2="35" y2="0" width="0.0254" layer="20" curve="-90"/>
+<wire x1="35.2" y1="0" x2="25.78045625" y2="-9.1" width="0.0254" layer="20" curve="-92"/>
+<wire x1="25.78045625" y1="-9.1" x2="-25.78045625" y2="-9.1" width="0.0254" layer="20"/>
+<wire x1="-25.78045625" y1="-9.1" x2="-35.2" y2="0" width="0.0254" layer="20" curve="-92"/>
+<wire x1="-35.2" y1="0" x2="-25.78045625" y2="9.1" width="0.0254" layer="20" curve="-92"/>
+<wire x1="-25.78045625" y1="9.1" x2="25.78045625" y2="9.1" width="0.0254" layer="20"/>
+<wire x1="25.78045625" y1="9.1" x2="35.2" y2="0" width="0.0254" layer="20" curve="-92"/>
 <circle x="-25" y="0" radius="2.6" width="0.127" layer="51"/>
 <circle x="25" y="0" radius="2.6" width="0.127" layer="51"/>
 <circle x="-15" y="0" radius="2.6" width="0.127" layer="51"/>
@@ -1220,7 +1220,7 @@
 <wire x1="-8.9" y1="-14.9" x2="-33.7" y2="-9" width="0.127" layer="51"/>
 <circle x="0" y="-12.1" radius="1" width="0.127" layer="51"/>
 <text x="-21.59" y="-3.81" size="6.35" layer="20" font="vector" ratio="1">CUT OUT </text>
-<wire x1="-26" y1="0" x2="26" y2="0" width="18" layer="46"/>
+<wire x1="-26.1" y1="0" x2="26.1" y2="0" width="18.2" layer="46"/>
 </package>
 </packages>
 </library>
