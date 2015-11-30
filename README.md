@@ -7,6 +7,8 @@ This module is a sister to the Mikrophonie Contact Mic Module. The Mikrophonie p
 [More information in the FAQ.](https://github.com/TomWhitwell/Pickup/wiki/Music-Thing-Modular-Pickup:-FAQ) 
 
 Current status:  
+
+November 2015: Minor fault in Panel (pickup cutout slightly tight) and major faults in Pickup Board. Rev2 board designed and sent to fab.  
 October 2015: Rev 1 prototype boards sent to fab  
 
 
