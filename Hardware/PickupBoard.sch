@@ -4808,6 +4808,10 @@ Pickup Red/Black -&gt; Socket SWITCH
 Pickup White -&gt; Socket SLEEVE
 PCB 'Socket_Slv' -&gt; Socket SLEEVE
 PCB 'Socket_Tip' -&gt; Socket TIP </text>
+<text x="73.66" y="71.12" size="1.778" layer="91">Try 10k here </text>
+<text x="127" y="55.88" size="1.778" layer="91">replace 100k with 470pf cap
+R4 = 10k
+R6 = 100k </text>
 </plain>
 <instances>
 <instance part="U1" gate="B" x="129.54" y="127"/>
