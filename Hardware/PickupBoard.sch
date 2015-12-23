@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4771,7 +4771,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FUSE" library="TomW" deviceset="PTC_FUSE" device="POLY_FUSE" value="FUSE"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="C3" library="TomW" deviceset="C-EU" device="050-024X044" value="100n"/>
+<part name="C3" library="TomW" deviceset="C-EU" device="050-024X044" value="470n"/>
 <part name="U1" library="MusicThingModular" deviceset="TL074" device="_"/>
 <part name="R2" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="220R"/>
 <part name="U$1" library="TomW" deviceset="SWCRAFT_112B" device=""/>
@@ -4782,14 +4782,14 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="R1" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="1k"/>
+<part name="R1" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="10k"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="MusicThingModular" deviceset="SMALL_DIODE" device="DO35-7" value="1N4148"/>
 <part name="D2" library="MusicThingModular" deviceset="SMALL_DIODE" device="DO35-7" value="1N4148"/>
-<part name="R3" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="100k"/>
-<part name="R4" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="1.2K"/>
+<part name="C6" library="TomW" deviceset="C-EU" device="050-024X044" value="470pf"/>
+<part name="R4" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="10k"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="R6" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="10k"/>
+<part name="R6" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="100k"/>
 </parts>
 <sheets>
 <sheet>
@@ -4808,10 +4808,6 @@ Pickup Red/Black -&gt; Socket SWITCH
 Pickup White -&gt; Socket SLEEVE
 PCB 'Socket_Slv' -&gt; Socket SLEEVE
 PCB 'Socket_Tip' -&gt; Socket TIP </text>
-<text x="73.66" y="71.12" size="1.778" layer="91">Try 10k here </text>
-<text x="127" y="55.88" size="1.778" layer="91">replace 100k with 470pf cap
-R4 = 10k
-R6 = 100k </text>
 </plain>
 <instances>
 <instance part="U1" gate="B" x="129.54" y="127"/>
@@ -4858,7 +4854,7 @@ R6 = 100k </text>
 <instance part="SUPPLY1" gate="GND" x="93.98" y="88.9"/>
 <instance part="D1" gate="G$1" x="109.22" y="60.96"/>
 <instance part="D2" gate="G$1" x="109.22" y="55.88" rot="R180"/>
-<instance part="R3" gate="G$1" x="109.22" y="68.58" rot="R180"/>
+<instance part="C6" gate="G$1" x="109.22" y="68.58" rot="R270"/>
 <instance part="R4" gate="G$1" x="132.08" y="81.28" rot="R180"/>
 <instance part="SUPPLY2" gate="GND" x="137.16" y="88.9"/>
 <instance part="R6" gate="G$1" x="149.86" y="68.58" rot="R180"/>
@@ -5132,7 +5128,7 @@ R6 = 100k </text>
 <wire x1="106.68" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
 <junction x="93.98" y="68.58"/>
 </segment>
@@ -5151,8 +5147,8 @@ R6 = 100k </text>
 <wire x1="111.76" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 <junction x="121.92" y="60.96"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <junction x="121.92" y="68.58"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
