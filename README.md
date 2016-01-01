@@ -8,6 +8,8 @@ This module is a sister to the Mikrophonie Contact Mic Module. The Mikrophonie p
 
 Current status:  
 
+December 2015: Small component changes in Pickup Board. 
+
 November 2015: Minor fault in Panel (pickup cutout slightly tight) and major faults in Pickup Board. Rev2 board designed and sent to fab.  
 October 2015: Rev 1 prototype boards sent to fab  
 
