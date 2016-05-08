@@ -8,6 +8,10 @@ This module is a sister to the Mikrophonie Contact Mic Module. The Mikrophonie p
 
 Current status:  
 
+May 2016: revised Rev 4 layout trying to get the fuzz circuit to work 
+
+March 2016: Demonstrated at Superbooth16 in Berlin, with Fuzz circuit bypassed. 
+
 December 2015: Small component changes in Pickup Board. 
 
 November 2015: Minor fault in Panel (pickup cutout slightly tight) and major faults in Pickup Board. Rev2 board designed and sent to fab.  
