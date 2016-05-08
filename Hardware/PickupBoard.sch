@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4814,12 +4814,12 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <instance part="U1" gate="D" x="165.1" y="124.46"/>
 <instance part="R5" gate="G$1" x="99.06" y="121.92" rot="R270"/>
 <instance part="SUPPLY4" gate="GND" x="99.06" y="111.76"/>
-<instance part="R14" gate="G$1" x="167.64" y="114.3"/>
-<instance part="R16" gate="G$1" x="185.42" y="124.46" rot="R180"/>
+<instance part="R14" gate="G$1" x="167.64" y="114.3" rot="R180"/>
+<instance part="R16" gate="G$1" x="185.42" y="124.46"/>
 <instance part="R8" gate="G$1" x="121.92" y="111.76" rot="R90"/>
 <instance part="R10" gate="G$1" x="132.08" y="116.84" rot="R180"/>
 <instance part="SUPPLY9" gate="GND" x="121.92" y="101.6"/>
-<instance part="R12" gate="G$1" x="157.48" y="106.68" rot="R270"/>
+<instance part="R12" gate="G$1" x="157.48" y="106.68" rot="R90"/>
 <instance part="SUPPLY5" gate="GND" x="157.48" y="96.52"/>
 <instance part="GND21" gate="1" x="76.2" y="27.94"/>
 <instance part="SUPPLY16" gate="G$1" x="66.04" y="15.24"/>
@@ -4854,10 +4854,10 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <instance part="SUPPLY1" gate="GND" x="93.98" y="88.9"/>
 <instance part="D1" gate="G$1" x="109.22" y="60.96"/>
 <instance part="D2" gate="G$1" x="109.22" y="55.88" rot="R180"/>
-<instance part="C6" gate="G$1" x="109.22" y="68.58" rot="R270"/>
+<instance part="C6" gate="G$1" x="109.22" y="68.58" rot="R90"/>
 <instance part="R4" gate="G$1" x="132.08" y="81.28" rot="R180"/>
 <instance part="SUPPLY2" gate="GND" x="137.16" y="88.9"/>
-<instance part="R6" gate="G$1" x="149.86" y="68.58" rot="R180"/>
+<instance part="R6" gate="G$1" x="149.86" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -4881,7 +4881,7 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="157.48" y1="111.76" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="101.6" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -4978,7 +4978,7 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U1" gate="D" pin="OUT"/>
-<wire x1="190.5" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="124.46" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
@@ -4990,7 +4990,7 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="124.46" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
@@ -5012,8 +5012,8 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <wire x1="157.48" y1="121.92" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="114.3" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="114.3" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 <junction x="157.48" y="114.3"/>
 </segment>
 </net>
@@ -5052,7 +5052,7 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="114.3" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="114.3" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5128,8 +5128,8 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <wire x1="106.68" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
 <junction x="93.98" y="68.58"/>
 </segment>
 </net>
@@ -5147,8 +5147,8 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <wire x1="111.76" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 <junction x="121.92" y="60.96"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <junction x="121.92" y="68.58"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
@@ -5160,7 +5160,7 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <wire x1="142.24" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="68.58" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <junction x="139.7" y="81.28"/>
 </segment>
@@ -5172,7 +5172,7 @@ PCB 'Socket_Tip' -&gt; Socket TIP </text>
 <wire x1="170.18" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="68.58" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <junction x="162.56" y="83.82"/>
 </segment>
