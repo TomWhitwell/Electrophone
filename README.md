@@ -1,12 +1,15 @@
-# Pickup
+# Electrophone
 
-Pickup is a Eurorack module containing a full-sized single coil guitar pickup.  
+Electrophone is a Eurorack module containing a full-sized single coil guitar pickup.  
 
-This module is a sister to the Mikrophonie Contact Mic Module. The Mikrophonie picks up physical vibrations, while Pickup can hear electromagnetic vibrations. Guitar pickups are designed to convert vibrating metal (strings) into audio, but single coil pickups are also notoriously susceptible to interference of all kinds; hum from transformers, fluorescent lights or even radio signals.
+This module is a sister to the Mikrophonie Contact Mic Module and Magnetophone Tape Head Module. The Mikrophonie picks up physical vibrations, while Electrophone can hear electromagnetic vibrations. Guitar pickups are designed to convert vibrating metal (strings) into audio, but single coil pickups are also notoriously susceptible to interference of all kinds; hum from transformers, fluorescent lights or even radio signals.
+
+This module is named after the [Epiphone Electrophone](http://www.oldfrets.com/Electrophone.html) an electric guitar from 1935.  
 
 [More information in the FAQ.](https://github.com/TomWhitwell/Pickup/wiki/Music-Thing-Modular-Pickup:-FAQ) 
 
 Current status:  
+August 2016: Finalised circuit 
 
 May 2016: revised Rev 4 layout trying to get the fuzz circuit to work 
 
@@ -19,4 +22,3 @@ October 2015: Rev 1 prototype boards sent to fab
 
 
 ![](https://raw.githubusercontent.com/TomWhitwell/Pickup/master/Collateral/pickuppanel.jpg)  
-![](https://raw.githubusercontent.com/TomWhitwell/Magnetophone/master/Collateral/tapehead-panel.jpg)
