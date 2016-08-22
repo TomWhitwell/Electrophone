@@ -7,7 +7,7 @@ This module is a sister to the Mikrophonie Contact Mic Module and Magnetophone T
 This module is named after the [Epiphone Electrophone](http://www.oldfrets.com/Electrophone.html) an electric guitar from 1935.  
 
 More information: 
-- [FAQ](https://github.com/TomWhitwell/Pickup/wiki/Music-Thing-Modular-Elecrophone:-FAQ) 
+- [FAQ](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-FAQ) 
 - [BOM](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Elecrophone:-BOM)
 - [Troubleshooting](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-Troubleshooting)
 
