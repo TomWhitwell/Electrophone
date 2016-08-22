@@ -9,7 +9,7 @@ This module is named after the [Epiphone Electrophone](http://www.oldfrets.com/E
 More information: 
 - [FAQ](https://github.com/TomWhitwell/Pickup/wiki/Music-Thing-Modular-Elecrophone:-FAQ) 
 - [BOM](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Elecrophone:-BOM)
-- [Troubleshooting]()
+- [Troubleshooting](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-Troubleshooting)
 
 Status:  
 - August 2016: Finalised circuit 
