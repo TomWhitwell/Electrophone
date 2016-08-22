@@ -10,6 +10,7 @@ More information:
 - [FAQ](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-FAQ) 
 - [BOM](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Elecrophone:-BOM)
 - [Troubleshooting](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-Troubleshooting)
+- [Demo video at Superbooth 16](https://youtu.be/UVMrQejVZlw?t=3m17s)
 
 Status:  
 - August 2016: Finalised circuit 
