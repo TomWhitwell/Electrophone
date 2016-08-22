@@ -20,5 +20,4 @@ Status:
 - October 2015: Rev 1 prototype boards sent to fab  
 
 
-![](https://raw.githubusercontent.com/TomWhitwell/Pickup/master/Collateral/pickuppanel.jpg)  
-![](https://raw.githubusercontent.com/TomWhitwell/Pickup/master/Collateral/pickuppanel_2.jpg)  
+![](https://raw.githubusercontent.com/TomWhitwell/Pickup/master/Collateral/pickuppanel.jpg)![](https://raw.githubusercontent.com/TomWhitwell/Pickup/master/Collateral/pickuppanel_2.jpg)  
