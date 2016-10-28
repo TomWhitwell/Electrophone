@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -135,7 +135,7 @@
 <wire x1="0" y1="29" x2="0" y2="0" width="0.0254" layer="20"/>
 <text x="42.545" y="26.035" size="1.778" layer="21" ratio="15">+-</text>
 <text x="46.355" y="3.81" size="0.889" layer="22" rot="MR0">Music Thing Modular 
-Pickup Back PCB
+Electrophone Back PCB
 CC-BY-SA Tom Whitwell
 Herne Hill, London </text>
 <text x="43.815" y="27.94" size="0.889" layer="22" rot="MR0">Revision 4 PCB </text>
