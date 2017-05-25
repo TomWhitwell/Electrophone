@@ -510,7 +510,7 @@ design rules under a new name.</description>
 <element name="CLEAN" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="6.477" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.207" y="1.905" size="1.016" layer="25" rot="SR180"/>
 </element>
-<element name="GAIN" library="TomW" package="EVUF" value="50k" x="22.86" y="5.715" smashed="yes" rot="R270">
+<element name="GAIN" library="TomW" package="EVUF" value="B1M" x="22.86" y="5.715" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.574" y="8.969" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="17.678" y="5.516" size="1.27" layer="27" rot="R270"/>
 </element>

@@ -1585,7 +1585,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="CLEAN" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="GAIN" library="TomW" deviceset="ALPHA-9MM" device="A" technology="F2" value="50k"/>
+<part name="GAIN" library="TomW" deviceset="ALPHA-9MM" device="A" technology="F2" value="B1M"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="FUZZ" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
