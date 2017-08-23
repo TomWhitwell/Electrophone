@@ -4630,7 +4630,7 @@ for full-range input </text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="U2" gate="C" pin="OUT"/>
 <wire x1="185.42" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="187.96" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
@@ -4643,7 +4643,7 @@ for full-range input </text>
 <wire x1="193.04" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="152.4" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -4713,8 +4713,8 @@ for full-range input </text>
 <pinref part="CLN" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="187.96" x2="220.98" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="187.96" x2="210.82" y2="187.96" width="0.1524" layer="91"/>
 <label x="228.6" y="187.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
